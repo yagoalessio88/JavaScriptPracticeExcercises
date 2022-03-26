@@ -1,0 +1,60 @@
+
+
+
+
+
+---------------------filter
+
+
+
+
+does return a new array
+
+can manipulate the size of the new array
+
+returns based on condition: it only returns the elements that match the condition
+
+
+
+
+
+
+const people = [
+	{ name: 'bob', age:20, position: 'developer' },
+	{ name: 'peter', age:25, position: 'designer' },
+	{ name: 'susy', age:30, position: 'the boss' }
+];
+
+
+
+
+const youngPeople = people.filter(function(person){
+	return person.age <= 25;
+});
+
+console.log(youngPeople);
+
+returns [{name:'bob', age:20, position: 'developer'},
+	{ name: 'peter', age:25, position: 'designer' }
+]
+
+
+
+
+const developers = people.filter(function(person){
+	return person.position === 'developer';
+});
+
+console.log(developers);
+
+returns [{name:'bob', age:20, position: 'developer'}]
+
+
+
+const seniorDevelopers = people.filter(function(person){
+	return person.position === 'senior developer';
+});
+
+console.log(seniorDevelopers);
+
+returns []     // none of the items matches the condition

@@ -1,0 +1,120 @@
+//// HIGHER ORDER METHODS
+
+///////////////////////// forEach
+
+// 1      por cada elemento en el array hacer un console.log de
+//         index y elemento
+
+// const array = ["cero", "uno", "dos", "tres", "cuatro", "cinco"];
+// array.forEach((item, index) => console.log(index, item));
+
+///////////////////////// map
+
+// 1       crear un nuevo array que contenga el string "hello world"
+//         por cada elemento en el array people
+
+// const people = [
+//   { name: "bob", age: 20, position: "developer" },
+//   { name: "peter", age: 25, position: "designer" },
+//   { name: "susy", age: 30, position: "the boss" },
+// ];
+// const elementos = people.map((person) => {
+//   return "hello world";
+// });
+// console.log(elementos);
+
+// 2      crear un nuevo array que contenga las edades
+
+// const people = [
+//   { name: "bob", age: 20, position: "developer" },
+//   { name: "peter", age: 25, position: "designer" },
+//   { name: "susy", age: 30, position: "the boss" },
+// ];
+// const ages = people.map((person) => {
+//   return person.age;
+// });
+// console.log(ages);
+
+// 3      crear un nuevo array que contenga el nombre y las edades + 1
+
+// const people = [
+//   { name: "bob", age: 20, position: "developer" },
+//   { name: "peter", age: 25, position: "designer" },
+//   { name: "susy", age: 30, position: "the boss" },
+// ];
+// const newPeople = people.map((person) => {
+//   return { name: person.name, age: person.age + 1 };
+// });
+// console.log(newPeople);
+
+/////////////////////////// filter
+
+// 1      crear un nuevo array que contenga las personas
+//        cuya edad sea mayor de 20 años
+
+// const people = [
+//   { name: "bob", age: 20, position: "developer" },
+//   { name: "peter", age: 25, position: "designer" },
+//   { name: "susy", age: 30, position: "the boss" },
+// ];
+// const ages = people.filter((person) => person.age > 20);
+// console.log(ages);
+
+// 2      crear un nuevo array que contenga las personas
+//        cuya posición sea "developer"
+
+// const people = [
+//   { name: "bob", age: 20, position: "developer" },
+//   { name: "peter", age: 25, position: "designer" },
+//   { name: "susy", age: 30, position: "the boss" },
+// ];
+// const developers = people.filter((person) => person.position === "developer");
+// console.log(developers);
+
+//////////////////////////// find
+
+// 1       encontrar la persona con id 3
+
+// const people = [
+//   { name: "bob", age: 20, position: "developer", id: 1 },
+//   { name: "peter", age: 25, position: "designer", id: 2 },
+//   { name: "susy", age: 30, position: "the boss", id: 3 },
+// ];
+// const person = people.find(function (person) {
+//   return person.id === 3;
+// });
+// console.log(person);
+
+//////////////////////////// reduce
+
+// 1           devolver el total de la suma de todos los salarios
+
+// const people = [
+//   { name: "bob", age: 20, position: "developer", id: 1, salary: 200 },
+//   { name: "peter", age: 25, position: "designer", id: 2, salary: 300 },
+//   { name: "susy", age: 30, position: "the boss", id: 3, salary: 500 },
+// ];
+
+// const total = people.reduce((acc, currentItem) => {
+//   console.log(`total ${acc}`);
+//   console.log(`current money : ${currentItem.salary}`);
+//   acc += currentItem.salary;
+//   return acc;
+// }, 0);
+
+/////////////////////////////Set
+
+// 1          crear un nuevo array que contenga todas las categorias
+//            en valores únicos (no repetidos)
+
+// const menu = [
+//   { name: "pancakes", category: "breakfast" },
+//   { name: "burguer", category: "lunch" },
+//   { name: "stake", category: "dinner" },
+//   { name: "bacon", category: "breakfast" },
+//   { name: "eggs", category: "breakfast" },
+//   { name: "pasta", category: "dinner" },
+// ];
+
+// const categories = [...new Set(menu.map((item) => item.category))];
+// console.log(categories);

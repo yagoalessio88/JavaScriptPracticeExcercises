@@ -1,0 +1,144 @@
+
+
+
+
+
+
+
+
+
+
+
+--------------objeto date
+
+
+
+
+
+permite trabajar con fechas y horas
+
+
+
+
+
+var fecha = new Date();
+inicializa con la fecha actual
+
+
+
+
+
+
+
+
+
+
+
+métodos
+
+
+
+
+getDate() setDate()
+
+            devuelve el día de la fecha de un 
+            objeto
+            con set modificamos el dia que se
+            almacena en el objeto
+
+
+getDay()  setDay() 
+
+            devuelve el día de la semana
+           el 0 es el domingo
+
+
+getHours() setHours()
+
+
+
+getMinutes()  setMinutes()
+
+
+
+getMonth()     setMonth()
+
+
+
+getSeconds()   setSeconds()
+
+
+getTime()    setTime()
+
+               devuelve milisegundos que han 
+                pasado desde el 1 de enero de
+               1970 hasta la fecha del objeto
+               date
+               sirve para igualar valores entre
+               objetos fecha
+
+
+
+getFullYear() setFullYear() 
+
+
+ 
+
+
+parse()        
+              toma como parámetro un string
+            de la forma ("Nov 21, 2013") y
+            devuelve el número de milisegundos
+             desde el 1 de enero de 1970
+
+           sirve para asignar valores a objeto
+          date
+
+
+
+
+toUTCString()
+ 
+             convierte una fecha en string 
+            utilizando la conversión universal
+           del tiempo de internet para fechas
+
+
+
+
+toLocaleString()  
+
+             convierte una fecha en string
+            utilizando las conversiones locales
+            dependerá del sist operat que se 
+           esté utilizando
+
+
+
+ToString()
+ 
+             convierte una fecha en un objeto
+             string
+
+
+
+UTC()        devuelve el número en milisegundos
+             en formato UTC
+
+
+
+
+ejemplos pagina 122
+
+
+
+
+
+
+
+
+
+
+
+
+

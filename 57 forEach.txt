@@ -1,0 +1,60 @@
+
+
+---------------------forEach
+
+
+
+
+
+does not return a new array
+
+
+it iterates over the array and then we decide what instructions execute
+
+
+
+referencing a eparate function
+
+
+
+first ex.
+
+
+const people = [
+	{ name: 'bob', age:20, position: 'developer' },
+	{ name: 'peter', age:25, position: 'designer' },
+	{ name: 'susy', age:30, position: 'the boss' }
+];
+
+
+function showPerson(person){
+	console.log(person);
+}
+
+people.forEach(showPerson);
+
+
+
+
+
+sec ex
+
+
+
+function showPerson(person){
+	console.log(person.position.toUpperCase());
+}
+
+people.forEach(showPerson);
+
+
+
+
+
+passing the callback function as an anonimous function
+
+
+
+people.forEach(function(item){
+	console.log(item.position.toUpperCase());
+})
