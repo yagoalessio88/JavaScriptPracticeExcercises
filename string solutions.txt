@@ -64,7 +64,7 @@ let cadena = "hola";
 // const cadenaMinusculas = cadena.toLocaleLowerCase();
 // console.log(cadenaMinusculas);
 
-// 11      transformar la cadena a minusculas
+// 11      transformar la cadena a mayusculas
 
 // const cadena = "hello everybody";
 // const cadenaMayusculas = cadena.toUpperCase();

@@ -4,14 +4,26 @@
 //                    (min and max) as arguments
 //                    Return an array of numbers in the range min to max
 
-// function myFunction(min, max) {}
+// function myFunction(min,max){
+//   let arr = [];
+//   for (let i = min; i <= max; i++) {
+//     arr.push(i);
+//   }
+//   return arr;
+// };
 // console.log(myFunction(2, 10));
 
 //  2                 Write a function that takes an array (a) and a value (n) as arguments
 // Save every nth element in a new array (multiples of n)
 // Return the new array
 
-// function myFunction(a, n) {};
+// function myFunction(a, n) {
+//   let result = [];
+//   for (let item = n; item <= a.length; item = item + n) {
+//     result.push(a[item - 1]);
+//   }
+//   return result;
+// }
 
 // myFunction([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3);
 // myFunction([10, 9, 8, 7, 6, 5, 4, 3, 2, 1], 5);
@@ -22,8 +34,15 @@
 // number as the maximum number of the array
 // ej myFunction(6)   returns [6,5,4,3,2,1,0]
 
-// function myFunction(number) {};
-// console.log(myFunction(6));
+// function myFunction(number) {
+//   let array = [];
+//   for (let i = number; i >= 0; i -= 1) {
+//     array.push(i);
+//   }
+//   return array;
+// }
+
+console.log(myFunction(6));
 
 ///////////////////////////////// for in
 

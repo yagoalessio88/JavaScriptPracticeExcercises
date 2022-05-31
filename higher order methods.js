@@ -28,7 +28,6 @@
 //   { name: "susy", age: 30, position: "the boss" },
 // ];
 // const ages =
-// });
 // console.log(ages);
 
 // 3      crear un nuevo array que contenga el nombre y las edades + 1
@@ -43,14 +42,14 @@
 
 /////////////////////////// filter
 
-//        elimina todas las apariciones de "elemento" en el array
+// 1       elimina todas las apariciones de "elemento" en el array
 
 // let array = [1, 23, "hola", 56, 88, "pepe", "hola"];
 // const elemento = "hola";
-// const newArray = array.filter((item) => item !== elemento);
+// const newArray =
 // console.log(newArray);
 
-// 1      crear un nuevo array que contenga las personas
+// 2      crear un nuevo array que contenga las personas
 //        cuya edad sea mayor de 20 años
 
 // const people = [
@@ -61,7 +60,7 @@
 // const ages =
 // console.log(ages);
 
-// 2      crear un nuevo array que contenga las personas
+// 3      crear un nuevo array que contenga las personas
 //        cuya posición sea "developer"
 
 // const people = [
@@ -72,10 +71,10 @@
 // const developers =
 // console.log(developers);
 
-//       contar y devolver la cantidad de numeros negativos en el array
+// 4      contar y devolver la cantidad de numeros negativos en el array
 
 // const array = [1, -2, 2, -4, -5];
-// const num = array.filter((el) => el < 0).length;
+// const num =
 // console.log(num);
 
 //////////////////////////// find
@@ -92,13 +91,14 @@
 
 //////////////////////////// reduce
 
-//            devolver el promedio del array
+// 1           devolver el promedio del array
 
 // let array = [10, 100, 40];
-// let promedio = array.reduce((acc, curr) => acc + curr, 0) / array.length;
+// let promedio =
 // console.log(promedio);
 
-//            devolver el total de la suma de todos los salarios
+// 2           por cada item devolver el salario del item actual y la suma del salario actual + salario del item precedente
+// ej. current money : 200 / total : 200
 
 // const people = [
 //   { name: "bob", age: 20, position: "developer", id: 1, salary: 200 },
@@ -106,10 +106,10 @@
 //   { name: "susy", age: 30, position: "the boss", id: 3, salary: 500 },
 // ];
 
-//            devolver el string con mayor numero de caracteres del array
+//  3          devolver el string con mayor numero de caracteres del array
 
 // let array = ["I", "need", "candy"];
-// let resultado = array.reduce((a, b) => (a.length <= b.length ? b : a));
+// let resultado =
 // console.log(resultado);
 
 /////////////////////////////Set
@@ -129,23 +129,23 @@
 // const categories =
 // console.log(categories);
 
-//             sumar los dos arrays en uno solo eliminando valores repetidos
+//   2          sumar los dos arrays en uno solo eliminando valores repetidos
 //             y ordenar el array resultante de menor a mayor
 
 // let array1 = [22, 56, 2, 8];
 // let array2 = [3, 85, 99, 333];
-// let resultado = [...new Set([...array1, ...array2])].sort((a, b) => a - b);
+// let resultado =
 // console.log(resultado);
 
-//            devolver true si todos los elementos del array son iguales
+//   3       devolver true si todos los elementos del array son iguales
 
 // let array1 = [1, 1, 1, 2];
 // let array2 = ["10", 10, 10, 10];
 // let array3 = ["test", "test", "test"];
 
-// let resultado1 = new Set(array1).size === 1;
-// let resultado2 = new Set(array2).size === 1;
-// let resultado3 = new Set(array3).size === 1;
+// let resultado1 =
+// let resultado2 =
+// let resultado3 =
 
 // console.log(resultado1);
 // console.log(resultado2);

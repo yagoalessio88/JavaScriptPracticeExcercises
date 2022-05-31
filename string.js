@@ -15,6 +15,7 @@
 // const cadena1 = "Hola ";
 // const cadena2 = "que tal";
 // const cadenaCompleta1 =
+// console.log(cadenaCompleta1);
 
 // console.log(cadenaCompleta1);
 
@@ -45,7 +46,7 @@
 // 8       pasar la primera letra del string a cadenaMayusculas
 
 // let cadena = "hola";
-// cadena = cadena.charAt(0).toUpperCase() + cadena.slice(1);
+// cadena =
 // console.log(cadena);
 
 // 9      extraer la porcion de cadena comprendida entre / a /
@@ -60,7 +61,7 @@
 // const cadenaMinusculas =
 // console.log(cadenaMinusculas);
 
-// 11      transformar la cadena a minusculas
+// 11      transformar la cadena a mayusculas
 
 // const cadena = "hello everybody";
 // const cadenaMayusculas =
